@@ -13,3 +13,13 @@
 2. add the server address to `proxy` key under react's `package.json`
 3. run the client
 4. now the requests to server endpoints proxied and accessible from client.
+
+
+## Upload to GitHub (first time)
+1. create project at GitHub
+2. Add all files in main workspace folder `./proj` - `git add *`
+3. commit your changes `git commit -m "first commit"`
+4. copy from GitHub the last 3 lines:
+ - `git branch -M {master}`
+ - `git remote add origin {https://github.com/YaakovHatam/workspace.git}`
+ - `git push -u origin {master}`
